@@ -73,4 +73,5 @@ def get_connection() -> Generator[Connection, None, None]:
         yield conn
     finally:
         conn.close()
+
         

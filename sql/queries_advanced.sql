@@ -108,3 +108,4 @@ LEFT JOIN (
   GROUP BY customer_id
 ) o_counts ON o_counts.customer_id = c.id
 ORDER BY order_count DESC;              -- customers with most orders first
+

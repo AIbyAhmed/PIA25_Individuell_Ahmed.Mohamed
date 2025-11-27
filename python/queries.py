@@ -79,3 +79,4 @@ def get_customer_spending(customer_id: int) -> Dict[str, Any]:
         result = session.execute(text(sql), {"cid": customer_id})
         rows = _rows_to_dicts(result)
         return rows[0] if rows else {"total_spent": 0}
+    
