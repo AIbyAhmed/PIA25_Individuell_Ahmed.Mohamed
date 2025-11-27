@@ -1,0 +1,14 @@
+# Python och virtuella miljöer
+.venv/
+env/
+venv/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Miljövariabler
+.env
+.env.local
+.env.*.local
+
